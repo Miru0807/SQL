@@ -1,0 +1,28 @@
+What are the SQL database functions?
+https://docs.microsoft.com/en-us/sql/t-sql/functions/functions?view=sql-server-ver15
+
+Pe cele de mai jos le veți folosi pentru a rezolva toate exercițiile.
+
+CAST
+CONVERT
+FORMAT
+GETDATE
+DATEADD
+DATEDIFF
+DATEFROMPARTS
+DAY
+MONTH
+YEAR
+CHOOSE
+IIF
+CHARINDEX
+CONCAT
+LEFT, RIGHT
+SUBSTRING
+LEN
+REPLACE
+TRIM
+STRING_AGG
+ISNULL
+COALESCE
+CASE

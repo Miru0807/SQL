@@ -1,0 +1,37 @@
+•FirstName, LastName, AccountNumber, OrderCount, LastOrderDate, LastOrderID
+•Care este valoarea medie e unei comenzi pentru fiecare client în anul 2014
+•Care sunt clienții care au făcut mai mult de 20 comenzi
+•Returnați suma totală vândută în fiecare an și, ca un ultim rând, totatul pe toți anii (încercați cu UNION și GROUPING SETS)
+•Toți SalesPersonID care să fi vândut mai puțin de 100 de produse diferite
+•Toți SalesPersonID care au mai mult de 2 ani între prima și ultima lor comandă
+•Câți clienți au făcut comenzi în fiecare an
+•Ce clienți au făcut comenzi în toți anii
+•Cea mai valoroasă comandă, durata cea mai mare de livrare a unei comenzi, data ultimei comenzi, și toate pe un singur rând
+•A treia cea mai bănoasă comandă (încercați cu și fără OFFSET)
+•Măriți bonusul lui Linda C Mitchell cu 10%
+•Toate comenzile care au mai mult de 5 produse diferite.
+•Toate produsele ultimei comenzi
+•SalesPersons who had sales in 2012 - with JOIN, self-contained subquery and correlated subquery (verificați care este mai performant folosind butonul display estimated execution plan) 
+•Cum se rescrie query-ul ăsta folosind subquery în loc de JOIN
+SELECT SalesOrderID, soh.CustomerID FROM Sales.SalesOrderHeader AS soh
+INNER JOIN Sales.Customer AS c
+	ON soh.CustomerID = c.CustomerID
+•Can this be used as a subquery?
+SELECT * FROM HumanResources.Employee
+•SalesOrderID, OrderDate și numărul de zile de la prima comandă.
+•SELECT FirstName, LastName of the customer with the biggest order.
+•Ultima comandă a fiecărui client, data la care s-a făcut și TotalDue.
+•Returnați într-o singură coloană toate combinațiile meciurilor de ping-pong între toți salespersons folosind doar FirstName (ex: 'Marius - Andrei') și doar tur, fără retur (adică să nu aveți și 'Andrei - Marius').
+•Folosind două CTE returnați suma TotalDue pentru yearly sales și cea mai mare diferență între vânzările dintre doi ani consecutivi.
+•ID-urile de comenzi care se află între MIN(TotalDue) și AVG(TotalDue)
+•O procedură care primește ca parametru un an (2014) și retunează ca parametru de output SalesOrderID pentru cea mai mare comandă din anul respectiv.
+•O procedură care primește ca parametru un table name și returnează ca output scriptul tabelului.
+•Creați o procedură stocată care să primească ca parametri ID, FN și LN și să insereze în tabel rândul dacă ID-ul nu exită, sau să actualizeze FN și LN dacă ID-ul există (folosiți MERGE). 
+•Apoi creați un tabel de audit în care introduceți acțiunea executată la punctul anterior (INSERT sau UPDATE), valorile inițiale și valorile noi.
+•O funcție care să primească ca parametru un SalesOrderID și să returneze toate produsele din comanda respectivă, cantitatea și prețul de vânzare.
+•Folosind doar funcția de mai sus și tabelul SalesOrderHeader returnați toate produsele comenzilor (43668, 43665 și 43675) (folosiți APPLY)
+•O funcție care să primească ca parametru un CustomerID și să returneze suma tuturor comenzilor.
+•Folosind funcția de la punctul 1 faceți un SELECT care să returneze toți clienții și suma tuturor vânzărilor lor.
+•O funcție care să primească ca parametru un Produs și să returneze numele clientului care l-a cumpărat cel mai des.
+•O funcție care să primească ca parametru un an și să returneze diferența între vânzările din anul respectiv și anul anterior.
+•Un view care să returneze SalesOrderID și țara în care s-a făcut fiecare comandă.

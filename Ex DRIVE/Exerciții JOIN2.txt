@@ -1,0 +1,17 @@
+﻿1. Returnați id-ul comenzilor, numele produselor din fiecare comandă și cantitatea vândută.
+2. Returnați numele produselor, numele subcategoriilor și numele categoriilor.
+3. Câți angajați sunt în departamentul Engineering
+4. Suma tuturor comenzilor care contin produse rosii
+5. Clientul care a făcut cea mai mare comandă
+6. Cine este angajatul cu cel mai mare salariu
+7. Fiecare salesperson (Nume, prenume) in ce tari face el vanzari?
+8. Creați două tabele t1 și t2 fiecare cu o singură coloană. În t1 introduceți valorile: 1, 2, 3, 4, 5. În t2 introduceți valorile 3, 4, 5, 6, 7. Returnați toate cifrele care se află în t1 și nu se află în t2.
+9. Returnați toate cifrele din t1 și t2 care se regăsesc doar într-una dintre ele. Adică nu trebuie să apară în rezultat cifrele: 3, 4, 5.
+10. Returneaza clientii care n au facut niciodata comenzi
+11. Numele de produse și numele subcategoriilor lor. Dacă nu au subcategorie să apară Not Available.
+12. Returnați tabelul Person.Person și adăugați o coloană IsCustomer care să conțină valoarea 1 dacă persoana este client și valoarea 0 dacă nu este client.
+13. Unul dintre clienții voștri s-a angajat ca SalesPerson la voi. Alegeți un client la întâmplare și creați-i o înregistrare în tabelul Sales.SalesPerson. Apoi faceți un query cu toate persoanele care sunt ori customer, ori salesperson, dar nu sunt amândouă în același timp. Adică nu trebuie să apară clientul pe care l-ați angajat.
+
+Pentru experți:
+14. Clientii care nu au facut comenzi in 2012(sau alt an)
+15. Ce tabele din schema HumanResources sunt referențiate în ce proceduri

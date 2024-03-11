@@ -1,0 +1,3 @@
+3. Adăugați o coloană în tabela de produse care să conțină categoria. Dacă nu au categorie să scrie "No Category"
+
+4. Adăugați o coloană în categorii cu suma totală a vânzărilor fără Freight

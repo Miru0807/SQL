@@ -1,0 +1,14 @@
+﻿Rezolvați următoarele cereri folosind clauza WHERE. Primele 5 se aplică pentru modelul vostru de date. Urmatoarele sunt pe baza de date AdventureWorks.
+
+1. Toate comenzile din martie 2012 (două modalități).
+2. Toate produsele care nu conțin cifre în nume, sunt negre și pot avea mărimile L și XL (două modalități).
+3. Adăugați un client nou cu numele Thierry D'Hers. Apoi creați un query care să returneze toți clienții care conțin apostrof în LastName.
+4. Toate ID-urile pare de produse.
+5. Toate comenzile pentru care a trecut mai mult de 7 zile până la livrare.
+6. Toate comenzile care au fost date intr-o zi impara din luna.
+7. Toate produsele pentru care timpul de fabricare depasteste 2 zile si costa mai putin de 200 sau timpul de fabricare e maxim o zi si costa peste 1000. 
+8. Toate persoanele care si-au modificat cardul de credit in ultimele 6 luni.
+
+
+6. Câți JobCandidates au în CV cuvântul 'manager'.
+7. Un singur câmp cu numele complet al persoanelor (din tabelul Person.Person) pentru care AdditionalContactInfo conține stringul 'weekend access'.

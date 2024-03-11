@@ -1,0 +1,7 @@
+Cât la sută dintre comenzi ca valoare s-au făcut în 2014
+
+Faceți o măsură care pentru pentru două slicere (pe lună și pe an) să returneze câte comenzi ca număr s-au făcut în perioada selectată comparativ cu toate comenzile.
+
+Faceți ca prima măsură să nu fie afectată de slicerele din a doua (fără să folosiți Edit Interactions).
+
+Coloană calculată în tabelul de produse care să însumeze prețurile tuturor produselor cu aceeași culoare ca rândul curent

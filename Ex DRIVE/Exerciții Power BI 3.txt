@@ -1,0 +1,11 @@
+-- O coloană în SalesPerson care să arate TerritoryID dacă există sau 0 dacă nu există
+
+-- O coloană care să pună descrierea Statusului comenzilor în loc de StatusID
+
+-- O coloană care să spună dacă comanda a fost făcută online, sau către un reseller
+
+-- O coloană care să spună dacă vreun SalesPerson a depășit anul acesta vânzările pe care le-a făcut anul trecut
+
+-- Creați un line chart cu vânzările pe fiecare zi. Pe data de 23.09.2011 (din baza AdvWorks2019) nu s-au făcut vânzări, prin urmare un line chart
+va uni o linie dreaptă vânzârile din 22.09 cu cele din 24. Folosind funcțiile de mai sus
+faceți o măsură care să pună 0 în pe 23.09.

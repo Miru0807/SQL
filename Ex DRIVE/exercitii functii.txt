@@ -1,0 +1,58 @@
+SELECT CHARINDEX('a', 'Ana are mere!', 6)
+SELECT REPLACE('Ana are mere!', 'Ana', 'Marius')
+SELECT TRIM('   Ana are mere!         ')
+SELECT REVERSE('Ana are mere!')
+SELECT LEN('Ana are mere!')
+
+SELECT REPLACE('Ana are mere!', 'a', 'Ana are mere!')
+SELECT REPLACE('Ana are mere!', 'Ana', 'Marius')
+SELECT REPLACE(REPLACE('Ana are mere!', 'Ana', 'Marius'), 'mere', 'pere')
+SELECT SUBSTRING('Ana are mere!', 6, 5)
+
+SELECT SUBSTRING('Ana are mere!',3,1) + SUBSTRING('Ana are mere!',6,1)
+
+
+IIF
+
+-------------------------------------------------------
+
+--X Returnați primele 3 caractere din orice propoziție 
+--X Returnați poziția pe care se află a doua literă de 'a' din orice propoziție
+SELECT CHARINDEX('a', 'Sunt supa la plic.', 1) 
+-- X Returnați primul și ultimul caracter din orice propoziție
+--X Returnați primul cuvânt din propoziție
+--X Returnați lungimea primului cuvânt din propoziție
+--X Returnați al doilea cuvânt din propoziție
+--Returnați primele 3 litere din orice propoziție
+
+
+
+
+--------------------------------
+
+
+DECLARE @d datetime 
+SET @d = '2023-01-23 10:00:10'
+SELECT DATEDIFF(ss, @d, GETDATE())
+
+
+SELECT  DAY(GETDATE()-1)
+
+
+SELECT GETDATE()
+SELECT DATEADD(dd, 2, @d)
+SELECT DATEADD(mm, 2, @d)
+SELECT DATEADD(mi,20, @d)
+SELECT DATEDIFF(dd, @d, '2023-04-20')
+SELECT DATEFROMPARTS(2023, 5, 20)
+SELECT YEAR(@d), MONTH(@d), DAY(@d)
+
+
+--X Returnați în ce dată vom fi peste 300 de zile
+--X Returnați câte secunde au trecut de la @d la data curentă
+--x Returnați prima zi a lunii curente
+--Returnați câte zile mai sunt din luna curentă
+--Returnați ultima zi a lunii curente
+--X Returnați 1 dacă anul curent este bisect sau 0 dacă nu este an bisect
+
+-- multiplu de 4 si 400 dar nu multiplu de 100

@@ -1,0 +1,7 @@
+Fără să schimbăm relațiile în modelul de date:
+-- creați o măsură care afișeze SUM(TotalDue) pentru fiecare categorie de produs
+-- creați o măsură care să returneze care este diferența între vânzările din 2012 și 2013 (folosind funcțiile CALCULATE și FILTER)
+-- faceți un raport care să arate cât s-a vândut pe fiecare teritoriu în fiecare lună din fiecare an și care este trendul tuturor vânzărilor lună de lună.
+-- (Waterfall chart) faceți un raport care să arate cum au evoluat valoarea vânzărilor de la an la an și cu cât a contribuit fiecare categorie de produs la această evoluție
+-- (Scatter Plot) faceți o singură vizualizare care să diferențieze clienții în funcție de câți bani au adus în firmă, câte comenzi au făcut în total și numărul de produse distincte pe care le-au cumpărat
+-- (Map) faceți o vizualizare care să arate câți clienți și ce valoare a vânzărilor are în fiecare provincie

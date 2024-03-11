@@ -1,0 +1,15 @@
+-- Creați trei bar charts: Câți clienți sunt în fiecare teritoriu, câți SalesPersons sunt alocați fiecărui teritoriu, câte comenzi s-au făcut în fiecare teritoriu
+
+-- Având activă relația între Person și SalesPerson, fără să schimbați relația faceți un tabel care să arate cât a cumpărat fiecare client.
+
+-- Având activă relația între Person și Customer, fără să schimbați relația faceți un tabel care să arate cât a vândut fiecare vânzător.
+
+-- Cu relația între Territory și Customer inactivă, și relația între Customer și SOH unidirecțională, cum se calculează COUNT(Customer.CustomerID) pe fiecare teritoriu?
+
+-- Cu relația între Territory și Customer inactivă, și relația între Customer și SOH bidirecțională, de ce apar 3625 de clienți în Australia în loc de 3665?
+
+-- Ce produse a comandat fiecare client?
+
+-- Faceți o măsură care să returneze valoare medie a unei comenzi. Măsura poate primi ca filtre (slicere): clientul (Full name), țara, subcategoria, categoria. Slicerele nu au voie să se filtreze între ele.
+
+-- Creați o vizualizare care să analizeze cifra de afaceri, numărul total de comenzi și numărul total de clienți din fiecare țară.

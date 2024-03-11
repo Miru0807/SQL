@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS Books
+CREATE TABLE Books (ISBN varchar(50), Name varchar(50), Author varchar(50))
+
+INSERT INTO Books VALUES 
+	('978-1-891830-75-4', 'Any Empire', 'Nate Powell'), 
+	('978-1-60309-050-6', 'The 120 Days of Simon', 'Simon Gardenfors'),
+	('978-1-60309-369-9','Apocrypha Now','Shannon Wheeler'),
+	('978-1-60309-069-8','August Moon','Diana Thung')
+
+SELECT langid as LangId, alias as Alias INTO Languages FROM sys.syslanguages

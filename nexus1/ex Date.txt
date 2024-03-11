@@ -1,0 +1,8 @@
+Exercitii pentru Date: 
+
+--Returnați în ce dată vom fi peste 300 de zile
+--Returnați câte secunde au trecut de la @d la data curentă
+--Returnați prima zi a lunii curente
+--Returnați câte zile mai sunt din luna curentă
+--Returnați ultima zi a lunii curente
+--Returnați 1 dacă anul curent este bisect sau 0 dacă nu este an bisect

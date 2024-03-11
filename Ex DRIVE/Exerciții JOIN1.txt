@@ -1,0 +1,21 @@
+•La ce adrese s-au livrat comenzile 57122, 57066 și 45273
+•Câte comenzi au fost făcute în Montreal
+•Câte comenzi au făcut clienții 11185 și 11176 în 2014
+•Ce produse a vândut fiecare SalesPerson (SalesPersonFullName, ProductName)
+•Returnați SalesPersonFullName, câți bani a adus în firmă, și cu câți bani l-am plătit de la prima lui vânzare până la ultima luăm în considerare doar hourly rate, fără bonus și având în vedere că lucrează 8h/zi.
+•(Scripts.Credit, Scripts.Insurance) Folosind cele două tabele returnați două coloane: prima coloană să conțină toate id-urile de clienți din cele două tabele și a doua coloană să conțină id-ul poliței de asigurare, dacă are, sau, dacă nu are asigurare, să conțină id-ul creditului. Adică dacă un client are și asigurare și credit, în cea de-a doua coloană va apărea doar id-ul asigurării. Doar dacă nu are, va trebui să apară id-ul creditului. (Nu aveți voie cu UNION)
+•Clienții care n-au făcut încă nicio comandă (două variante: cu subquery și cu join)
+•În ce orașe a vândut fiecare SalesPerson
+•Toți clienții și care sunt produsele pe care le-au cumpărat
+•Perioadele în care s-a vândut fiecare produs (ex: Bike XL, 2012-05-03 - 2015-01-14)
+•(Scripts.Employees)Subordonații direcți ai lui James	R	Hamilton
+•Personale care nu sunt employees
+•(Scripts.Books, Scripts.Languages) Returnați toate combinațiile dintre books și languages
+•(Scripts.YearlySales) Returnați trei coloane: anul, suma tuturor comenzilor pe anul curent, suma tuturor comenzilor pe anul precedent
+•(Scripts.Employees)Ce ID de angajat are CEO-ul?
+•Ce SalesPersons au făcut mai puține comenzi în perioada ianuarie-iunie 2014 comparativ cu aceeași perioadă din anul precedent?
+•(Scripts.Credit, Scripts.Insurance) Clienții care au credit și nu au poliță și cei care au poliță și nu au credit
+•Employees care sunt la al doilea job în companie
+•Care este primul departament al fiecărui angajat?
+•Toți clienții care nu au făcut comenzi în 2012
+•Toți clienții care au făcut comenzi doar în 2012

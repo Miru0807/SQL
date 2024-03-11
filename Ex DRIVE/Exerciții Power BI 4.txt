@@ -1,0 +1,12 @@
+1. Tabelă calculată cu id-ul comenzii și câte produse distincte are fiecare comandă.
+2. Tabelă calculată cu categoriile, câte subcategorii sunt în fiecare categorie și câte produse sunt în fiecare categorie.
+3. Adăugați la tabela de la punctul 1 o coloană cu din câte categorii disticte sunt produsele din acea comandă.
+4. Tabelă calculată cu numele, prenumele, cât a vândut fie care salesperson și câte produse distincte a vândut. Legătura între Person și SalesPerson trebuie să fie inactivă.
+5. Fără să schimbați modelul de date creați un tabel calculat cu ce produse a vândut fiecare SalesPerson. Tabela trebuie să includă o coloană cu numele întreg al fiecărui SalesPerson.
+6. Fără să schimbați modelul de date creați un tabel calculat cu produsele și câți clienți diferiți le-au comandat.
+7. Fără să creați un tabel calculat, creați o măsură cu media valorii totale a comenzilor pe un an.
+8. Fără să creați un tabel calculat, creați o măsură care să calculeze cât a cumpărat în medie un client.
+9. Asigurați-vă că în tabela de la punctul 4 apar și vânzările care nu au un SalesPerson. În loc de numele vânzătorului să apară Internet Sales.
+10. Fără să creați o coloană calculată creați o măsură care să calculeze câte nume distincte există în tabela Person.Person. Ne referim la numele complet alt persoanelor (FirstName, LastName).
+11. Creați un slicer cu 2 opțiuni Retail și Reseller care să filtreze măsura TotalSales
+12. Creați o tabelă separată pentru slicerul de la punctul 2 care să se numească CustomerType și să aibă doar două valori ("Retail", "Reseller") folosind datele din tabela SalesOrderHeader și asigurați-vă că în continuare se filtrează măsura TotalSales ( = SUM(TotalDue))

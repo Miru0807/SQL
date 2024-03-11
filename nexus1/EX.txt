@@ -1,0 +1,7 @@
+--1)Returnati primele 3 caractere din orice propozi?ie
+--2)Returnati pozitia pe care se afli a doua litera de 'a' din orice propozi?ie
+--3)Returnati primul si ultimul caracter din orice propozitie
+--4)Returnati primul cuvânt din propozitie
+--5)Returnati lungimea primului cuvânt din propozitie
+--6)Returnati al doilea cuvânt din propozitie
+-- OPTIONAL 7)Returnati primele 3 litere din orice propozitie
